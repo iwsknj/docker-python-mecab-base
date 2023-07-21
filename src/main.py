@@ -14,7 +14,6 @@ def main():
 
   print('分析結果: ', execute(analizedText.splitlines()))
 
-main()
 
 def execute(morphemes):
   words = []
@@ -69,3 +68,4 @@ def execute(morphemes):
 
   return words
 
+main()

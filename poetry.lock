@@ -485,6 +485,28 @@ pyparsing = ">=2.3.1,<3.1"
 python-dateutil = ">=2.7"
 
 [[package]]
+name = "mecab"
+version = "0.996.3"
+description = "MeCab binding for many OSs (Windows, macOS, and Linux)"
+optional = false
+python-versions = "*"
+files = [
+    {file = "mecab-0.996.3-cp27-cp27m-win32.whl", hash = "sha256:7c42c76ffe551688fca424e4e8e8e6adffa79f80c7f40f5699af449321b13887"},
+    {file = "mecab-0.996.3-cp27-cp27m-win_amd64.whl", hash = "sha256:6db2e3337baf9fc082f7ccefd233ff3cf7dbf51f81e715fbd29bcde03cb86f65"},
+    {file = "mecab-0.996.3-cp310-cp310-win32.whl", hash = "sha256:f04287da1f16021b3809d66deca3fe6b8ac54e920584d2bd6880f67549aa17fc"},
+    {file = "mecab-0.996.3-cp310-cp310-win_amd64.whl", hash = "sha256:586e83c7226e4e1d79788a210a380566d97b4e96ca318d02f181927bbf8f3f5f"},
+    {file = "mecab-0.996.3-cp36-cp36m-win32.whl", hash = "sha256:34d3b1a77804de8db2a9225e23727e1e87ce0f081fe00e9651ad784947c589ab"},
+    {file = "mecab-0.996.3-cp36-cp36m-win_amd64.whl", hash = "sha256:6687085337685ada67e165711177d03744a1ba7495fe3e6a75c689b60b16c3fb"},
+    {file = "mecab-0.996.3-cp37-cp37m-win32.whl", hash = "sha256:650ffe2ec4209d2ac6d09065f278998cd17e5aaf1e15d122e9c51974f3c3fe00"},
+    {file = "mecab-0.996.3-cp37-cp37m-win_amd64.whl", hash = "sha256:edd0791f72e087d53ce7d49143ac9b9068296f67b580c61590356a1e87229566"},
+    {file = "mecab-0.996.3-cp38-cp38-win32.whl", hash = "sha256:1036a472a4fa0e7a470289b2f8985f91aa2c89e2497cc698094e53513c6f6238"},
+    {file = "mecab-0.996.3-cp38-cp38-win_amd64.whl", hash = "sha256:521904cfa5ff2c1545290891a17df0853bbdc1cf1f83068d9ffde19012ee8be2"},
+    {file = "mecab-0.996.3-cp39-cp39-win32.whl", hash = "sha256:74d9f196ed6eb0a1faedefb22517fae07d53b6c6cddfcf67ea26b8406bd434e7"},
+    {file = "mecab-0.996.3-cp39-cp39-win_amd64.whl", hash = "sha256:6833fcbc5d7ce494d8e9aafff1b390684e5081cf92810917cdcd22d3b28f2e93"},
+    {file = "mecab-0.996.3.tar.gz", hash = "sha256:0a943743149a00f8ff616c05cdb267618657a48e37b1381c5f8b41e9af8f32ad"},
+]
+
+[[package]]
 name = "numpy"
 version = "1.25.1"
 description = "Fundamental package for array computing in Python"
@@ -849,4 +871,4 @@ socks = ["PySocks (>=1.5.6,!=1.5.7,<2.0)"]
 [metadata]
 lock-version = "2.0"
 python-versions = "^3.10"
-content-hash = "0267c9ab599421da54a70dff71f1fe035a2bd4159b671ee84e19a72a953843be"
+content-hash = "70b3f691977c2efaab2a917add9dd925684c9dbe1d3ce2089e41b00d93e6af44"

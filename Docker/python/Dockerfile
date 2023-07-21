@@ -1,4 +1,4 @@
-FROM python:3.10-slim-bullseye
+FROM python:3.10-buster
 
 # コンテナにアクセスした際のデフォルトディレクトリ
 ARG work_dir="/workspace/"
@@ -16,8 +16,7 @@ RUN apt-get update \
   sudo \
   mecab \
   libmecab-dev \
-  mecab-ipadic-utf8 \
-  gcc
+  mecab-ipadic-utf8
 
 RUN localedef -f UTF-8 -i ja_JP ja_JP.UTF-8
 ENV LANG ja_JP.UTF-8
